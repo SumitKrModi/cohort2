@@ -9,6 +9,9 @@ body {
   height: 100%;
   width: 100%;
 }
+body{
+    overflow: hidden;
+}
 main{
   height: 100%;
   width: 100%;
@@ -21,19 +24,18 @@ main{
 }
 
 h1{
-  font-size: 50px;
-  padding: 10px 20px;
-  background-color: green;
-  border: 2px solid white;
-  border-radius: 5px;
+  white-space: nowrap;
 }
 
 button{
-  padding: 10px 20px;
+  padding: 20px 40px;
   background-color: crimson;
+  font-size: 30px;
   font-weight: 600;
   border: none;
   border-radius: 5px;
+  position: relative;
+  z-index: 9;
 }
 button:active{
   scale: 0.95;
